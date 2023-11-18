@@ -1,0 +1,101 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #f9f7fd;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 60px auto;
+  min-width: 300px;
+}
+
+form {
+  padding: 16px;
+}
+
+input {
+  font-family: inherit;
+  font-size: 15px;
+  border-radius: 6px;
+  border: none;
+  padding: 18px 20px;
+}
+
+form #enter-city {
+  background-color: #f9f7fd;
+  width: 75%;
+}
+
+form #submit {
+  background-color: #885df1;
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+}
+
+hr {
+  margin: 10px 0;
+  opacity: 0.1;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 35px;
+  padding: 0;
+}
+
+main {
+  margin: 20px 20px -75px;
+}
+
+.current-weather p {
+  margin: -6px 0 0;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 15px;
+}
+
+.humidity-wind {
+  font-weight: bold;
+  color: #f65282;
+}
+
+.current-degrees {
+  text-align: right;
+  position: relative;
+  bottom: 128px;
+  font-size: 70px;
+}
+
+.current-degrees .number {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-degrees .emoji {
+  position: relative;
+  font-size: 40px;
+  bottom: 11px;
+  left: 7px;
+}
+
+.current-degrees .celcius {
+  position: relative;
+  font-size: 30px;
+  bottom: 34px;
+}
+
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0 16px;
+}
+
+footer p a {
+  color: #885df1;
+}
